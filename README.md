@@ -1,30 +1,36 @@
-# Laravel Make Module Command
+# Laravel Modular API Generator
 
-A custom Artisan command to generate a full modular API structure following
-Repository Pattern & Service Layer.
+A custom Artisan command to generate a **clean, modular, API-first architecture**
+using Repository Pattern & Service Layer in :contentReference[oaicite:1]{index=1}.
 
-## Features
+This tool is opinionated by design and focuses on **consistency, scalability, and developer productivity**.
+
+---
+
+## ✨ Why This Tool?
+
+In medium to large Laravel projects, creating the same layers repeatedly:
+
 - Model
-- Migration
-- Factory
-- Repository (Interface + Eloquent)
-- Service Layer
-- API Controller (V1)
-- Form Requests
+- Repository
+- Service
+- Controller
+- Requests
 - Transformer
 
-## Usage
+leads to:
+- Boilerplate repetition
+- Namespace mistakes
+- Inconsistent architecture
+- Wasted setup time
+
+This command solves that by generating a **fully structured module** in seconds.
+
+---
+
+## 🧱 Generated Architecture
+
+When running:
 
 ```bash
 php artisan make:module User --all
-php artisan make:module User --model --repository --service
-```
-## Folder Structure
-app/
- ├── Models
- ├── Repositories
- ├── Services
- ├── Transformers
- ├── Http/Controllers/Api/V1
- └── Http/Requests/Api/V1
- 
