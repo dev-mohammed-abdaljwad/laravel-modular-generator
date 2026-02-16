@@ -1,7 +1,7 @@
 # Laravel Modular API Generator
 
-A custom Artisan command to generate a **clean, modular, API-first architecture**
-using Repository Pattern & Service Layer in :contentReference[oaicite:1]{index=1}.
+A custom Artisan command to generate a clean, modular, **API-first architecture**
+using Repository Pattern & Service Layer in Laravel.
 
 This tool is opinionated by design and focuses on **consistency, scalability, and developer productivity**.
 
@@ -9,7 +9,7 @@ This tool is opinionated by design and focuses on **consistency, scalability, an
 
 ## ✨ Why This Tool?
 
-In medium to large Laravel projects, creating the same layers repeatedly:
+In medium to large Laravel projects, repeatedly creating:
 
 - Model
 - Repository
@@ -18,7 +18,7 @@ In medium to large Laravel projects, creating the same layers repeatedly:
 - Requests
 - Transformer
 
-leads to:
+often leads to:
 - Boilerplate repetition
 - Namespace mistakes
 - Inconsistent architecture
